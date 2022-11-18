@@ -1,0 +1,138 @@
+
+
+
+/*////////////////   OK    /////////////////*/
+body{
+  width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url(../css/images/BackGround.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;"
+ } 
+hr{
+  width: 70%;
+}
+
+
+h1{
+	font-family: 'Playfair Display', serif;
+  font-size: 45px;
+	font-weight:300; 
+	color:inherit;
+	line-height: 45px;
+	margin: 15px 0  15px 0;
+	width: 100%;
+}
+h2{
+	font-family: 'Playfair Display', serif;
+  font-weight:300; 
+  font-size: 27px;
+	line-height: 30px;
+	/*margin: 0 0 7px 0;*/
+}
+.beforetitle{
+  font-family: 'Playfair Display', serif;
+  font-weight:300; 
+  font-size: 27px;
+  margin-bottom: -15px;
+/*  line-height: 50px;*/
+  /*margin: 0 0 7px 0;*/
+}
+.done{
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  background: #fff6;
+}
+.vignettes{
+   text-align: center;
+   width: 100px;
+   display: inline-block;
+   margin: 0 10px auto;
+}
+.logo{
+  width: 300px;
+  height: 160px;
+  background-image:url(../css/images/logo.png);
+  background-size: 300px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+.intitule{
+  font-family: 'Playfair Display', serif;
+  font-size: 17px;
+  line-height: 15px;
+  top:100px;
+}
+.blasons{
+  width: 120px;
+  margin-top: 20px;
+  margin-bottom: -30px;
+}
+.separation{
+  margin-top: 8px;
+}
+
+p{
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  font-weight:300; 
+  color:inherit;
+  line-height: 24px;
+}
+legend{
+  font-family: 'Playfair Display', serif;
+  font-size: 13px;
+ /* font-style: italic; */
+  color:grey;
+  margin:11px auto 0; 
+}
+input[type=submit]{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    background-color: black;
+    border: 2px solid black;
+    color: #FFF;
+    border-radius: 5px;
+    margin: 20px 15px 10px 15px;
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+}
+input[type=submit]:hover {
+    background-color: #545454;
+    border: 2px solid #545454;
+	color: #fff;
+}
+
+footer{
+    width:100%;
+    height: 18px;
+    background-image:url(../css/images/signature.svg);
+    background-repeat:no-repeat;
+    background-position:center;
+    margin-top: 10px;
+ }
+
+@media only screen and (max-device-width:450px){
+	body{
+  	width: 100%;
+  }
+  .vignettes{
+   text-align: center;
+
+   display: inline-block;
+   margin: 0 auto;
+}
+.checkmark{
+  height: 93px;
+  width: 93px;
+}
+.container{
+  display: inline-block;
+  height: 93px;
+  width: 93px;
+}
+
+}

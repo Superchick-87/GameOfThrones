@@ -1,0 +1,64 @@
+/* The container */
+.container {
+  display: inline-block;
+  position: relative;
+  padding-left: 0px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  height: 93px;
+  width: 93px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 93px;
+  width: 93px;
+  border-radius: 50%;
+  /*background-repeat: no-repeat;*/
+}
+/* Create the indicator (the dot/circle - hidden when not checked) */
+/*.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}*/
+
+/* Show the indicator (dot/circle) when checked */
+/*.container input:checked ~ .checkmark:after {
+  display: block;
+}
+*/
+/* Style the indicator (dot/circle) */
+/*.container .checkmark:after {
+ opacity: 0;
+}*/
+
+/*<!-- :::::::::::::::::  PERSONNAGES :::::::::::::::::::::: -->*/
+.choix {
+  border: solid 4px;
+  border-color: black;
+  opacity: 0.5;
+}
+.choix:hover{
+  border: solid 4px;
+  border-color: black;
+  opacity: 1;
+ }
+input:checked ~ .checkmark{
+  border: solid 4px;
+  border-color: black;
+  opacity: 1;
+}

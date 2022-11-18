@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta charset="utf-8">
+ <link href="css/style.css" rel="stylesheet">
+ <link href="css/roll.css" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
+ <meta name="viewport" content="initial-scale=1.0, user-scalable=yes"/>
+ <meta name="viewport" content="width=device-width"/>
+ <title>SudOuest.fr - Infographie Game of Thrones</title>
+ <style type="text/css">
+   	@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,900');
+  	@import url('https://fonts.googleapis.com/css?family=Roboto:100,300');
+  	@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:300,400');
+	@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:300,400|Noto+Serif+TC|Playfair+Display');
+ </style>
+ </head>
+
+  <body>
+    <div id="logo" class="logo">
+    </div>
+    <div class="beforetitle">- Saison 8 -</div>
+  	<h1>C'est vous qui faites l'histoire</h1>
+  		 <hr>
+       <div id="done" class="done" data-aos="zoom-in"></div>
+  		<form id="toto" action="">
+
+        <!-- :::::::::::::::::  PERSONNAGES :::::::::::::::::::::: -->
+        <h2>Choisissez votre personnage...</h2>
+       <div> 
+	        <div class="vignettes">
+	  			<label class="container perso01">
+		  			<input id="perso01" type="radio" name="radio2" value="perso01">
+		  			<img src="css/images/Perso01_i.jpg" class="checkmark choix"/>
+	          	</label>
+	  				<span class="intitule">Cersei Lannister</span>
+	  		</div>
+        <div class="vignettes">
+          <label class="container perso02">
+            <input id="perso02" type="radio" name="radio2" value="perso02">
+            <img src="css/images/Perso02_i.jpg" class="checkmark choix"/>
+          </label>
+          <span class="intitule">Daenerys Targaryen</span>
+        </div>
+        <div class="vignettes">
+          <label class="container perso03">
+            <input id="perso03" type="radio" name="radio2" value="perso03">
+            <img src="css/images/Perso03_i.jpg" class="checkmark choix"/>
+          </label>
+          <span class="intitule">Jon<br/>Snow</span>
+        </div>
+        <div class="vignettes">
+          <label class="container perso04">
+            <input id="perso04" type="radio" name="radio2" value="perso04">
+            <img src="css/images/Perso04_i.jpg" class="checkmark choix"/>
+          </label>
+          <span class="intitule">Arya<br/>Stark</span>
+        </div>
+        <div class="vignettes">
+          <label class="container perso05">
+            <input id="perso05" type="radio" name="radio2" value="perso05">
+            <img src="css/images/Perso05_i.jpg" class="checkmark choix"/>
+          </label>
+          <span class="intitule">Le Roi<br>de la nuit</span>
+        </div>
+    </div>
+
+<!-- :::::::::::::::::  OBJETS :::::::::::::::::::::: -->
+
+      <h2>...et votre arme</h2>
+      <div> 
+			<div class="vignettes">
+	  			<label class="container objet01">
+		  			<input id="objet01" type="radio" name="radio" value="objet01">
+		  			<img src="css/images/Objet01_i.jpg" class="checkmark choix"/>
+		  		</label>
+	  				<span class="intitule">Les<br/>dragons</span>
+	  		</div>
+	  		<div class="vignettes">
+          <label class="container objet02">
+            <input id="objet02" type="radio" name="radio" value="objet02">
+            <img src="css/images/Objet02_i.jpg" class="checkmark choix"/>
+          </label>
+          <span class="intitule">L’armée<br/>des morts</span>
+        </div>
+        <div class="vignettes">
+          <label class="container objet03">
+            <input id="objet03" type="radio" name="radio" value="objet03">
+            <img src="css/images/Objet03_i.jpg" class="checkmark choix"/>
+          </label>
+          <span class="intitule">Epée d’acier Valyrien</span>
+        </div>
+        <div class="vignettes">
+          <label class="container objet04">
+            <input id="objet04" type="radio" name="radio" value="objet04">
+            <img src="css/images/Objet04_i.jpg" class="checkmark choix"/>
+          </label>
+          <span class="intitule">Gant<br/>de l’Infini</span>
+        </div>
+        <div class="vignettes">
+          <label class="container objet05">
+            <input id="objet05" type="radio" name="radio" value="objet05">
+            <img src="css/images/Objet05_i.jpg" class="checkmark choix"/>
+          </label>
+          <span class="intitule">La<br/>montagne</span>
+        </div>
+    </div>
+    <div>
+        <input id="bouton" type="submit" value="GoT it"></input>
+        </div>
+
+      </form>
+      <footer></footer>
+      <legend>- Crédits - <br/>Textes : Philippe Belhache<br/>Conception & développement : Nicolas Peyrebrune</legend>	
+  </body>
+
+<script src="js/datas.json" type="text/javascript"></script>
+<script src="js/histoire.js" type="text/javascript"></script>
+
+</html>
